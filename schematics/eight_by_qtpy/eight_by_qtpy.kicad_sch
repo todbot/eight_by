@@ -2215,6 +2215,12 @@
 		(uuid "64026389-9a2c-4e21-b87a-29415649a353")
 	)
 	(junction
+		(at 233.68 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65bc81bf-144f-49cd-a387-b2e7fdbd30b3")
+	)
+	(junction
 		(at 133.35 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2239,6 +2245,12 @@
 		(uuid "8a3fb174-0093-44dc-ad3e-623aed729caf")
 	)
 	(junction
+		(at 209.55 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a5e60c2-b22e-485c-bfa8-6519ea7d2c19")
+	)
+	(junction
 		(at 139.7 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2251,20 +2263,8 @@
 		(uuid "b577df95-d1bb-4322-bce0-87291e45f9bf")
 	)
 	(no_connect
-		(at 187.96 88.9)
-		(uuid "2587d552-9a49-4e36-b454-70539cacc852")
-	)
-	(no_connect
-		(at 62.23 160.02)
-		(uuid "3edfdcca-313e-4e1a-a621-0f5e11dd7a31")
-	)
-	(no_connect
-		(at 95.25 170.18)
-		(uuid "4924d0b5-a1df-497a-92e9-3023a628e172")
-	)
-	(no_connect
-		(at 95.25 167.64)
-		(uuid "57fa40c1-315a-4be5-8851-a0d6b3a79766")
+		(at 241.3 88.9)
+		(uuid "1de55348-f7d3-482e-8079-5da794a99e48")
 	)
 	(no_connect
 		(at 62.23 157.48)
@@ -2333,6 +2333,16 @@
 			(type default)
 		)
 		(uuid "0c7ff013-8678-4c4c-8317-8c763e6c518f")
+	)
+	(wire
+		(pts
+			(xy 224.79 72.39) (xy 233.68 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cd9e9b1-5e94-46dd-999b-35c4946d6d88")
 	)
 	(wire
 		(pts
@@ -2536,6 +2546,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 167.64) (xy 105.41 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d572924-c78c-4c5b-a3d9-698d29cbf120")
+	)
+	(wire
+		(pts
 			(xy 106.68 88.9) (xy 111.76 88.9)
 		)
 		(stroke
@@ -2563,6 +2583,16 @@
 			(type default)
 		)
 		(uuid "40225600-1d9c-4306-96c5-8111462f3158")
+	)
+	(wire
+		(pts
+			(xy 208.28 54.61) (xy 214.63 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44b02fce-8bf0-4f75-8a4d-7f57ef6c47c8")
 	)
 	(wire
 		(pts
@@ -2776,6 +2806,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 72.39) (xy 233.68 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82c75fe1-bd21-46b9-bcd2-22def75d7483")
+	)
+	(wire
+		(pts
 			(xy 20.32 110.49) (xy 26.67 110.49)
 		)
 		(stroke
@@ -2826,6 +2866,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 54.61) (xy 198.12 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cf441dd-26a3-4677-8c14-e131c0552a75")
+	)
+	(wire
+		(pts
 			(xy 157.48 144.78) (xy 168.91 144.78)
 		)
 		(stroke
@@ -2833,6 +2883,16 @@
 			(type default)
 		)
 		(uuid "8dfbcae0-e7af-48d5-9f03-4d8a48fe926e")
+	)
+	(wire
+		(pts
+			(xy 209.55 72.39) (xy 209.55 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91534e92-ff04-40d8-9a24-afaf72635dea")
 	)
 	(wire
 		(pts
@@ -2886,6 +2946,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 170.18) (xy 105.41 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a3103f1-4f02-4961-80ad-2265df880102")
+	)
+	(wire
+		(pts
 			(xy 119.38 132.08) (xy 130.81 132.08)
 		)
 		(stroke
@@ -2923,6 +2993,16 @@
 			(type default)
 		)
 		(uuid "a831f0b7-178b-4ccd-8dcc-d65d421749ba")
+	)
+	(wire
+		(pts
+			(xy 217.17 88.9) (xy 226.06 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8b27546-2b3a-4191-9630-2ee0748ae513")
 	)
 	(wire
 		(pts
@@ -3106,6 +3186,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 88.9) (xy 201.93 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce3bffe0-190d-4f98-970c-c987c3e276ca")
+	)
+	(wire
+		(pts
 			(xy 119.38 127) (xy 139.7 127)
 		)
 		(stroke
@@ -3153,6 +3243,16 @@
 			(type default)
 		)
 		(uuid "e5ded32f-efd9-4b52-a5ee-6734a1c1c4b6")
+	)
+	(wire
+		(pts
+			(xy 200.66 72.39) (xy 209.55 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7d71f6f-2975-4b74-ac24-d086ecf15b6f")
 	)
 	(wire
 		(pts
@@ -3320,6 +3420,17 @@
 		)
 		(uuid "3cb5c20a-cb1f-4a98-b730-ad8850d7f926")
 	)
+	(label "SW10"
+		(at 96.52 170.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3ed33d27-3488-4017-a5b2-aa4f37ceb0da")
+	)
 	(label "S0"
 		(at 86.36 135.89 0)
 		(fields_autoplaced yes)
@@ -3330,6 +3441,17 @@
 			(justify left bottom)
 		)
 		(uuid "4099a753-36f1-4e6b-b2c2-d292fa3fead3")
+	)
+	(label "SW10"
+		(at 208.28 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "431131c8-6591-440c-ae87-4f1b3d8ed952")
 	)
 	(label "POT3"
 		(at 67.31 39.37 0)
@@ -3342,7 +3464,7 @@
 		)
 		(uuid "437b20ac-8beb-4808-bd81-3711f02bf23b")
 	)
-	(label "SW"
+	(label "S2"
 		(at 62.23 165.1 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3562,7 +3684,7 @@
 		)
 		(uuid "a850bb8c-192f-4e91-925a-70b00261b037")
 	)
-	(label "S0"
+	(label "MIDI_TX"
 		(at 62.23 172.72 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3606,7 +3728,7 @@
 		)
 		(uuid "b1ce9364-3719-4ef4-8084-b3ef52a425d3")
 	)
-	(label "S1"
+	(label "S0"
 		(at 62.23 170.18 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3638,6 +3760,17 @@
 			(justify left bottom)
 		)
 		(uuid "b82b1759-fc5f-4139-a6e4-434762f460c0")
+	)
+	(label "POT"
+		(at 62.23 160.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b874261e-7ef1-41fd-b918-6797525e6166")
 	)
 	(label "NEOPIXEL"
 		(at 39.37 110.49 0)
@@ -3683,6 +3816,17 @@
 		)
 		(uuid "c3afb916-80d2-4f2e-8a2d-f582f954a622")
 	)
+	(label "SW9"
+		(at 96.52 167.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c63ff535-88d9-4472-93dc-d11900579ec1")
+	)
 	(label "SW3"
 		(at 67.31 54.61 0)
 		(fields_autoplaced yes)
@@ -3694,7 +3838,7 @@
 		)
 		(uuid "d1ca58a3-6f93-4d48-b9b5-fc9e28c39d3e")
 	)
-	(label "S2"
+	(label "S1"
 		(at 62.23 167.64 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3704,6 +3848,17 @@
 			(justify left bottom)
 		)
 		(uuid "d545289c-d7fd-4cf7-a3a6-177cdb1b9a50")
+	)
+	(label "SW9"
+		(at 191.77 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7c6bfd9-bad9-4670-bd10-442d0962d418")
 	)
 	(label "S2"
 		(at 86.36 130.81 0)
@@ -3782,7 +3937,7 @@
 		)
 		(uuid "ea9e6f6b-bbdf-4ecf-a284-e64935417f4d")
 	)
-	(label "POT"
+	(label "SW"
 		(at 62.23 162.56 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4071,6 +4226,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 203.2 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0adf2e6c-8221-4b62-a6ab-70cd4890abb0")
+		(property "Reference" "#PWR064"
+			(at 203.2 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.2 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 203.2 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "721c9323-e4ec-4d62-9589-025ce6415374")
+		)
+		(instances
+			(project "eight_by_qtpy"
+				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "todbot_eagle2023:QTPY")
 		(at 82.55 163.83 0)
 		(unit 1)
@@ -4096,7 +4317,7 @@
 				)
 			)
 		)
-		(property "Footprint" "todbot_eagle2023:QTPY_TH"
+		(property "Footprint" "todbot_eagle2023:QTPY_TH_HEADERSOCKET"
 			(at 82.804 175.26 0)
 			(effects
 				(font
@@ -4787,6 +5008,72 @@
 			(project "eight_by"
 				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 219.71 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2aa44c2b-0cee-4b95-be0d-b62d573a648e")
+		(property "Reference" "#PWR065"
+			(at 219.71 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 219.71 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 219.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0389937f-5261-4c9c-bd66-b1ea73537b8e")
+		)
+		(instances
+			(project "eight_by_qtpy"
+				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -6102,6 +6389,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 233.68 96.52 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49a0089a-005b-46d8-a51c-d8b3aaab3e72")
+		(property "Reference" "#PWR071"
+			(at 233.68 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 230.378 99.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 233.68 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa326c3e-b7e9-4ac6-92bc-8fd8ea482c59")
+		)
+		(instances
+			(project "eight_by_qtpy"
+				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 177.8 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6273,6 +6626,137 @@
 			(project "eight_by"
 				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 233.68 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51a78e58-4f59-4b40-b94c-fa771fe594b5")
+		(property "Reference" "#PWR070"
+			(at 233.68 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 228.854 70.866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 233.68 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d50e6b86-f092-4f86-b09e-82166974d09b")
+		)
+		(instances
+			(project "eight_by_qtpy"
+				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 224.79 80.01 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5217f712-2ced-4013-a736-2a3c52dc60a9")
+		(property "Reference" "#PWR069"
+			(at 224.79 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 224.79 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 224.79 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bcd25a52-9ca3-49c4-a721-95c86b9bc503")
+		)
+		(instances
+			(project "eight_by_qtpy"
+				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -7079,6 +7563,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 209.55 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "70cb5e46-54b7-4ee8-8d9f-f7bff787d7cf")
+		(property "Reference" "#PWR067"
+			(at 209.55 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 204.724 70.866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 209.55 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9ffccdf-4819-41c6-a43a-97b057254d19")
+		)
+		(instances
+			(project "eight_by_qtpy"
+				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 96.52 160.02 90)
 		(mirror x)
@@ -7670,6 +8219,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 217.17 57.15 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "81f0f32b-27ba-4852-aa6b-42ed2d549b58")
+		(property "Reference" "SW10"
+			(at 213.36 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 216.154 58.674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H7.3mm"
+			(at 217.17 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 217.17 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c899b48-57ee-4e65-be6c-4d98363cc975")
+		)
+		(pin "2"
+			(uuid "24354d42-647b-49b8-a6c8-e51a7372448b")
+		)
+		(instances
+			(project "eight_by_qtpy"
+				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 147.32 194.31 0)
 		(mirror y)
@@ -7737,6 +8357,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 209.55 96.52 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83fa2ebb-dbcd-4c52-ae97-79fc15b1373d")
+		(property "Reference" "#PWR068"
+			(at 209.55 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 206.248 99.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 209.55 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80e40cc4-7f87-4406-9b84-be3177095d5c")
+		)
+		(instances
+			(project "eight_by_qtpy"
+				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 160.02 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7796,6 +8482,77 @@
 			(project "eight_by"
 				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 200.66 57.15 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "852e1c8a-212f-4924-849e-66562c73b7a9")
+		(property "Reference" "SW9"
+			(at 196.85 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 199.644 58.674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H7.3mm"
+			(at 200.66 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 200.66 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01e67120-0145-4c09-a517-473440312594")
+		)
+		(pin "2"
+			(uuid "07abb2c6-cffc-41fe-bb45-515960fad1c5")
+		)
+		(instances
+			(project "eight_by_qtpy"
+				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
+					(reference "SW9")
 					(unit 1)
 				)
 			)
@@ -8771,6 +9528,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 200.66 80.01 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a4762a5c-5369-402d-8c96-551f8612edd4")
+		(property "Reference" "#PWR066"
+			(at 200.66 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.66 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eda30844-2b7b-4933-9e0b-193103473952")
+		)
+		(instances
+			(project "eight_by_qtpy"
+				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 58.42 72.39 0)
 		(unit 1)
@@ -8896,6 +9719,76 @@
 			(project "eight_by"
 				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 224.79 76.2 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa960bbf-f4b9-42e4-8aa9-0c34703f6952")
+		(property "Reference" "C12"
+			(at 220.98 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 220.98 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 223.8248 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 224.79 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ba28402-b4df-4844-bed1-83f4f22bfe8d")
+		)
+		(pin "2"
+			(uuid "3fdd8e00-efb1-4ceb-817b-ffdbfe7998bd")
+		)
+		(instances
+			(project "eight_by_qtpy"
+				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -9659,6 +10552,76 @@
 			(project "eight_by"
 				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 200.66 76.2 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0f50512-f856-4ee8-b057-d0ad5dc88f56")
+		(property "Reference" "C11"
+			(at 196.85 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 196.85 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 199.6948 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 200.66 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ec7a89f-b9e7-4c09-9595-02a8e0abbbb2")
+		)
+		(pin "2"
+			(uuid "090cc848-ebb6-4a63-ad4b-ae5c7399c655")
+		)
+		(instances
+			(project "eight_by_qtpy"
+				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -10627,6 +11590,81 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:WS2812B")
+		(at 209.55 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec7e44ba-d82b-4dfd-960a-421e21f8386f")
+		(property "Reference" "LED9"
+			(at 204.978 82.296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 214.63 95.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-Mini_PLCC4_3.5x3.5mm"
+			(at 210.82 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 212.09 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 209.55 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5590fdfe-0085-4705-b97a-d5cd9f1a3702")
+		)
+		(pin "2"
+			(uuid "3d829980-05d9-44e9-bc0d-72643c869a5a")
+		)
+		(pin "3"
+			(uuid "56cc65d0-0236-470e-bf2b-847ad48a3a42")
+		)
+		(pin "4"
+			(uuid "c4185a96-8717-48b0-944e-da46e0ff9ece")
+		)
+		(instances
+			(project "eight_by_qtpy"
+				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
+					(reference "LED9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 76.2 43.18 0)
 		(unit 1)
@@ -11161,6 +12199,81 @@
 			(project "eight_by"
 				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 233.68 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb68c969-be1d-4e30-b7f9-2df52516a3db")
+		(property "Reference" "LED10"
+			(at 229.108 82.296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 238.76 95.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-Mini_PLCC4_3.5x3.5mm"
+			(at 234.95 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 236.22 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 233.68 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3369eb87-e76e-4a65-a2ce-bb8b42b6d417")
+		)
+		(pin "2"
+			(uuid "59ce8f8a-f743-4aa6-b4d1-74f5519c35ee")
+		)
+		(pin "3"
+			(uuid "9e4e7098-21e1-40b6-9d3a-7e1379de1ec0")
+		)
+		(pin "4"
+			(uuid "b459149e-1ba8-410d-94a4-3aa3124ea0aa")
+		)
+		(instances
+			(project "eight_by_qtpy"
+				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
+					(reference "LED10")
 					(unit 1)
 				)
 			)
