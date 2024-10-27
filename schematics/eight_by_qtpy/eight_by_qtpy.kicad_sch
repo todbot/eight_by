@@ -374,6 +374,218 @@
 				)
 			)
 		)
+		(symbol "Connector_Audio:AudioJack4"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AudioJack4"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Audio Jack, 4 Poles (TRRS)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "audio jack receptacle stereo headphones TRRS connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AudioJack4_0_1"
+				(rectangle
+					(start -6.35 -5.08)
+					(end -7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0.635 -5.715) (xy 1.27 -5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.715 -5.08) (xy -5.08 -5.715) (xy -4.445 -5.08) (xy -4.445 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -5.08) (xy -1.27 -5.715) (xy -0.635 -5.08) (xy -0.635 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy -2.54 0) (xy -2.54 -5.08) (xy -3.175 -5.715) (xy -3.81 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 3.81)
+					(end -6.35 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AudioJack4_1_1"
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -2274,6 +2486,10 @@
 		(at 95.25 172.72)
 		(uuid "8653ae5d-4464-41c3-84a8-a097996d3110")
 	)
+	(no_connect
+		(at 34.29 132.08)
+		(uuid "a1a2c7da-4788-49a6-b6a9-218ee0028d9a")
+	)
 	(wire
 		(pts
 			(xy 62.23 160.02) (xy 69.85 160.02)
@@ -2736,6 +2952,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 127) (xy 58.42 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e7d2886-f021-4f08-ab62-272072848e2c")
+	)
+	(wire
+		(pts
 			(xy 160.02 72.39) (xy 160.02 81.28)
 		)
 		(stroke
@@ -3026,6 +3252,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 132.08) (xy 39.37 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad30b7d2-7a80-4efe-bb69-d7b542ddd489")
+	)
+	(wire
+		(pts
 			(xy 157.48 172.72) (xy 168.91 172.72)
 		)
 		(stroke
@@ -3093,6 +3329,16 @@
 			(type default)
 		)
 		(uuid "b9b96d98-2db5-4e6c-bc5f-ab49b5bc7d31")
+	)
+	(wire
+		(pts
+			(xy 38.1 132.08) (xy 38.1 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baf50477-94c9-45ba-a7e3-efe2752b1cda")
 	)
 	(wire
 		(pts
@@ -3166,6 +3412,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 129.54) (xy 34.29 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9f15c00-313e-492d-9d78-aaaa5cb70bf9")
+	)
+	(wire
+		(pts
 			(xy 133.35 180.34) (xy 139.7 180.34)
 		)
 		(stroke
@@ -3173,6 +3429,16 @@
 			(type default)
 		)
 		(uuid "cdc43f69-19ce-4640-b4dc-fa84139b62a4")
+	)
+	(wire
+		(pts
+			(xy 34.29 127) (xy 39.37 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdde56e3-057f-4bd4-88bc-58f4399e9de8")
 	)
 	(wire
 		(pts
@@ -3640,6 +3906,17 @@
 		)
 		(uuid "a30bb7f3-ff9f-4396-aeb0-f6c71aa2a1f3")
 	)
+	(label "MIDI_OUT"
+		(at 49.53 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a3bea394-4884-4345-8959-1ca5a6c75885")
+	)
 	(label "SW6"
 		(at 161.29 182.88 0)
 		(fields_autoplaced yes)
@@ -3684,7 +3961,7 @@
 		)
 		(uuid "a850bb8c-192f-4e91-925a-70b00261b037")
 	)
-	(label "MIDI_TX"
+	(label "MIDI_OUT"
 		(at 62.23 172.72 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4154,6 +4431,73 @@
 			(project "eight_by"
 				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
 					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 46.99 132.08 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "052a722d-d644-4898-bf63-2a1fcda9baf4")
+		(property "Reference" "#PWR073"
+			(at 43.18 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 50.8 132.0799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 46.99 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01865005-1ffc-4d7b-a39f-2da4092c467f")
+		)
+		(instances
+			(project "eight_by_qtpy"
+				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -6520,6 +6864,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Audio:AudioJack4")
+		(at 29.21 132.08 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a49cdfe-fb06-4c35-b852-e7dae4014b1f")
+		(property "Reference" "J2"
+			(at 26.67 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack4"
+			(at 26.67 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "todbot_stuff:Jack_3.5mm_PJ320D_Horizontal"
+			(at 29.21 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 4 Poles (TRRS)"
+			(at 29.21 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "b6d32c36-eea6-47e9-bfe5-38d3e1c9aedd")
+		)
+		(pin "R2"
+			(uuid "e80f5952-b3e5-4ae8-ad27-915b3c252c87")
+		)
+		(pin "T"
+			(uuid "8a231067-bf45-4402-bb94-bb5913ba4824")
+		)
+		(pin "R1"
+			(uuid "b3c7669b-6aaa-43c0-af91-7eded2925bd4")
+		)
+		(instances
+			(project ""
+				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74HC4051")
 		(at 147.32 134.62 0)
 		(unit 1)
@@ -7818,6 +8236,72 @@
 			(project "eight_by"
 				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 34.29 134.62 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "719a7ab3-ece2-4355-8706-9f33f57c1526")
+		(property "Reference" "#PWR072"
+			(at 40.64 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 37.592 137.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 34.29 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fcd70648-b46b-4311-874f-2c286a551ab9")
+		)
+		(instances
+			(project "eight_by_qtpy"
+				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -9255,6 +9739,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 43.18 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a7b2541-f673-4b99-a728-274c06bc1df3")
+		(property "Reference" "R3"
+			(at 43.18 122.174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 43.18 124.714 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 43.18 128.778 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 43.18 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ee28cd7e-5c47-48ec-b3f9-d9ec6acfaf78")
+		)
+		(pin "1"
+			(uuid "85f481f3-0064-4792-ac5a-fd510222f525")
+		)
+		(instances
+			(project "eight_by_qtpy"
+				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 69.85 76.2 0)
 		(mirror y)
@@ -10622,6 +11173,73 @@
 			(project "eight_by_qtpy"
 				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 43.18 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4f4c824-af0b-490c-bbac-f79201b3dee9")
+		(property "Reference" "R4"
+			(at 42.926 129.794 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 42.926 134.366 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 43.18 133.858 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 43.18 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ff9a2e15-ae50-4b33-8162-ae5f0d21e779")
+		)
+		(pin "1"
+			(uuid "3c24233d-012b-4e22-8326-de23cd1458a0")
+		)
+		(instances
+			(project "eight_by_qtpy"
+				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
+					(reference "R4")
 					(unit 1)
 				)
 			)
