@@ -1665,31 +1665,45 @@
 				)
 			)
 		)
-		(symbol "Switch:SW_Push_45deg"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
+		(symbol "easyeda2kicad:TC-1103-C-D"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 3.048 1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push_45deg"
-				(at 0 -3.81 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Value" "TC-1103-C-D"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:SW-TH_4P-L12.0-W12.0-P5.00-LS12.5"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_XKB-Enterprise-TC-1103-C-D_C561260.html"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1698,8 +1712,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
+			(property "LCSC Part" "C561260"
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1707,39 +1721,10 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Push_45deg_0_1"
-				(circle
-					(center -1.1684 1.1684)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "TC-1103-C-D_0_1"
 				(polyline
 					(pts
-						(xy -0.508 2.54) (xy 2.54 -0.508)
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -1751,7 +1736,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.016 1.016) (xy 2.032 2.032)
+						(xy -2.54 2.54) (xy 2.54 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1763,7 +1748,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
+						(xy -0.76 1.27) (xy -0.76 -1.02)
 					)
 					(stroke
 						(width 0)
@@ -1775,7 +1760,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.524 -1.524) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54)
+						(xy 0 -2.54) (xy 0 -0.76)
 					)
 					(stroke
 						(width 0)
@@ -1785,9 +1770,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 1.143 -1.1938)
-					(radius 0.508)
+				(polyline
+					(pts
+						(xy 0 1.52) (xy 0 0.76)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -1796,9 +1782,33 @@
 						(type none)
 					)
 				)
-				(pin passive line
-					(at -2.54 2.54 0)
-					(length 0)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.76 0.25) (xy -1.02 0.25) (xy -1.02 0) (xy -0.76 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 2.54 0)
+					(length 5.08)
 					(name "1"
 						(effects
 							(font
@@ -1814,9 +1824,9 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 2.54 -2.54 180)
-					(length 0)
+				(pin unspecified line
+					(at 5.08 2.54 180)
+					(length 5.08)
 					(name "2"
 						(effects
 							(font
@@ -1825,6 +1835,42 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -2.54 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -2.54 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2802,7 +2848,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 54.61) (xy 214.63 54.61)
+			(xy 215.9 54.61) (xy 222.25 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3092,7 +3138,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 54.61) (xy 198.12 54.61)
+			(xy 194.31 54.61) (xy 200.66 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3709,7 +3755,7 @@
 		(uuid "4099a753-36f1-4e6b-b2c2-d292fa3fead3")
 	)
 	(label "SW10"
-		(at 208.28 54.61 0)
+		(at 215.9 54.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4127,7 +4173,7 @@
 		(uuid "d545289c-d7fd-4cf7-a3a6-177cdb1b9a50")
 	)
 	(label "SW9"
-		(at 191.77 54.61 0)
+		(at 194.31 54.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4504,138 +4550,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 139.7 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "076e2fae-e74e-42f4-9fcc-aecd2093de39")
-		(property "Reference" "#PWR024"
-			(at 139.7 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 139.7 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bcd92fae-31b5-46cf-8a0c-0afce99f19e9")
-		)
-		(instances
-			(project "eight_by"
-				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 203.2 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0adf2e6c-8221-4b62-a6ab-70cd4890abb0")
-		(property "Reference" "#PWR064"
-			(at 203.2 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 203.2 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "721c9323-e4ec-4d62-9589-025ce6415374")
-		)
-		(instances
-			(project "eight_by_qtpy"
-				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
-					(reference "#PWR064")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "todbot_eagle2023:QTPY")
 		(at 82.55 163.83 0)
 		(unit 1)
@@ -4880,6 +4794,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 64.77 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e1b26bc-8d15-491f-ab35-73775d0f3855")
+		(property "Reference" "#PWR012"
+			(at 64.77 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.77 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 64.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e649dd95-6bc2-4f5a-941e-c67b81413471")
+		)
+		(instances
+			(project "eight_by_qtpy"
+				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 171.45 76.2 0)
 		(mirror y)
@@ -4950,6 +4930,88 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:TC-1103-C-D")
+		(at 205.74 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "149cf6b4-955d-4c28-a8ea-aa4a1953a6d0")
+		(property "Reference" "SW9"
+			(at 205.74 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TC-1103-C-D"
+			(at 201.422 61.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SW-TH_4P-L12.0-W12.0-P5.00-LS12.5"
+			(at 205.74 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_XKB-Enterprise-TC-1103-C-D_C561260.html"
+			(at 205.74 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C561260"
+			(at 205.74 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b0f52263-d85d-4b6c-a576-e8c4c6a04b74")
+		)
+		(pin "2"
+			(uuid "09f8b5bb-975c-4e96-9ab3-1d13c5dc958e")
+		)
+		(pin "1"
+			(uuid "b145043e-5b4c-4a2b-b811-70eda5ab0fff")
+		)
+		(pin "4"
+			(uuid "7480044f-aba9-429d-ac68-e961e9581988")
+		)
+		(instances
+			(project "eight_by_qtpy"
+				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 160.02 72.39 0)
 		(unit 1)
@@ -5009,6 +5071,72 @@
 			(project "eight_by"
 				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
 					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 124.46 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b6edff7-5223-4610-b841-49563521eef5")
+		(property "Reference" "#PWR021"
+			(at 124.46 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 124.46 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85d03cb7-6918-4eaf-88d8-5820d6f14a51")
+		)
+		(instances
+			(project "eight_by_qtpy"
+				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -5150,6 +5278,72 @@
 			(project "eight_by"
 				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
 					(reference "LED5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 210.82 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22e84882-744c-4ca0-9754-ed39254b4fc3")
+		(property "Reference" "#PWR064"
+			(at 210.82 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 210.82 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 210.82 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "310ea3d3-a62d-4109-92fb-3790d9f8b5a3")
+		)
+		(instances
+			(project "eight_by_qtpy"
+				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -5358,17 +5552,32 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 219.71 59.69 0)
+		(lib_id "easyeda2kicad:TC-1103-C-D")
+		(at 40.64 57.15 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2aa44c2b-0cee-4b95-be0d-b62d573a648e")
-		(property "Reference" "#PWR065"
-			(at 219.71 66.04 0)
+		(uuid "2c78a9e5-d592-47d8-b249-55ae649ee112")
+		(property "Reference" "SW1"
+			(at 40.64 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TC-1103-C-D"
+			(at 36.83 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SW-TH_4P-L12.0-W12.0-P5.00-LS12.5"
+			(at 40.64 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5376,16 +5585,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 219.71 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 219.71 59.69 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_XKB-Enterprise-TC-1103-C-D_C561260.html"
+			(at 40.64 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5393,8 +5594,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 219.71 59.69 0)
+		(property "Description" ""
+			(at 40.64 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5402,22 +5603,31 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 219.71 59.69 0)
+		(property "LCSC Part" "C561260"
+			(at 40.64 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "3"
+			(uuid "02b6fc8b-ac4b-4557-81e9-2e848db4cd2a")
+		)
+		(pin "2"
+			(uuid "53a3b226-9924-46fb-8e32-ef50ff294406")
 		)
 		(pin "1"
-			(uuid "0389937f-5261-4c9c-bd66-b1ea73537b8e")
+			(uuid "1a6146a7-d0ad-4d91-8ffa-227881be699b")
+		)
+		(pin "4"
+			(uuid "47de78a8-f027-49d6-b25c-12a16849fe95")
 		)
 		(instances
-			(project "eight_by_qtpy"
+			(project ""
 				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
-					(reference "#PWR065")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -5930,72 +6140,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 180.34 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "361c5ec7-471b-4b7e-9bd1-944cbfc9eac5")
-		(property "Reference" "#PWR030"
-			(at 180.34 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 180.34 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 180.34 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 180.34 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6a2838a0-3bac-4f7d-9ae2-924d27da2534")
-		)
-		(instances
-			(project "eight_by"
-				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 177.8 35.56 0)
 		(unit 1)
@@ -6056,77 +6200,6 @@
 			(project "eight_by"
 				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
 					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push_45deg")
-		(at 76.2 57.15 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3aa6f6de-3518-4de0-8d0f-e8038f95fde7")
-		(property "Reference" "SW3"
-			(at 72.39 55.8799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_Push_45deg"
-			(at 75.184 58.674 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H7.3mm"
-			(at 76.2 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 76.2 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ff35c7b9-413f-418c-9962-4060d22029e6")
-		)
-		(pin "2"
-			(uuid "7adc88a8-ac2f-4220-b76f-1764c5cf7071")
-		)
-		(instances
-			(project "eight_by"
-				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
-					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -6938,6 +7011,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 165.1 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d3a948b-d83c-4d0a-9483-eedb9661bbef")
+		(property "Reference" "#PWR027"
+			(at 165.1 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03088e1b-7e4b-4dbb-a250-d61600f85f0a")
+		)
+		(instances
+			(project "eight_by_qtpy"
+				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74HC4051")
 		(at 147.32 134.62 0)
 		(unit 1)
@@ -7704,6 +7843,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 144.78 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6701de31-bb47-4c60-b14c-4f8d5daaee89")
+		(property "Reference" "#PWR024"
+			(at 144.78 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.78 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54e4b05a-f270-4eb6-b061-6ad11fd5464e")
+		)
+		(instances
+			(project "eight_by_qtpy"
+				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 96.52 35.56 0)
 		(unit 1)
@@ -7904,77 +8109,6 @@
 			(project "eight_by"
 				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
 					(reference "RV3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push_45deg")
-		(at 96.52 57.15 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6cab4e0f-a3b5-4473-9fa0-d54ad4f7d9ee")
-		(property "Reference" "SW4"
-			(at 92.71 55.8799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_Push_45deg"
-			(at 95.504 58.674 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H7.3mm"
-			(at 96.52 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 96.52 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 96.52 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2364b58d-3152-4074-af4d-cfe878dd502a")
-		)
-		(pin "2"
-			(uuid "f566b042-2d1c-4a0b-9f2b-aa8b52c850e0")
-		)
-		(instances
-			(project "eight_by"
-				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
-					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -8236,6 +8370,88 @@
 			(project "eight_by"
 				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:TC-1103-C-D")
+		(at 59.69 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "718d5514-34ca-4ea6-b875-0245dc1e1988")
+		(property "Reference" "SW2"
+			(at 59.69 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TC-1103-C-D"
+			(at 56.134 61.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SW-TH_4P-L12.0-W12.0-P5.00-LS12.5"
+			(at 59.69 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_XKB-Enterprise-TC-1103-C-D_C561260.html"
+			(at 59.69 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C561260"
+			(at 59.69 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e2eeecb9-7aab-43e1-9ef1-2ab00f194f11")
+		)
+		(pin "2"
+			(uuid "ae2ae9a3-dd5d-4ba8-b16c-0c958283730e")
+		)
+		(pin "1"
+			(uuid "90777b61-e81a-4797-854b-6ccb6cd81e63")
+		)
+		(pin "4"
+			(uuid "34e2425a-456a-43f4-a84b-57e0ba46c806")
+		)
+		(instances
+			(project "eight_by_qtpy"
+				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -8570,72 +8786,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 59.69 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "77d9cf57-8d06-4468-8e8c-3f04c4aaa4d8")
-		(property "Reference" "#PWR012"
-			(at 59.69 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 59.69 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 59.69 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c15f3bd8-f2a2-47db-b9a6-305e0c78c57f")
-		)
-		(instances
-			(project "eight_by"
-				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 92.71 123.19 270)
 		(unit 1)
@@ -8703,45 +8853,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push_45deg")
-		(at 217.17 57.15 270)
-		(mirror x)
+		(lib_id "easyeda2kicad:TC-1103-C-D")
+		(at 139.7 57.15 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "81f0f32b-27ba-4852-aa6b-42ed2d549b58")
-		(property "Reference" "SW10"
-			(at 213.36 55.8799 90)
+		(uuid "7d46ba84-e7b9-431d-975b-a605bf3d308c")
+		(property "Reference" "SW6"
+			(at 139.7 51.562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "SW_Push_45deg"
-			(at 216.154 58.674 90)
+		(property "Value" "TC-1103-C-D"
+			(at 135.382 61.468 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H7.3mm"
-			(at 217.17 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 57.15 0)
+		(property "Footprint" "easyeda2kicad:SW-TH_4P-L12.0-W12.0-P5.00-LS12.5"
+			(at 139.7 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8749,8 +8886,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 217.17 57.15 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_XKB-Enterprise-TC-1103-C-D_C561260.html"
+			(at 139.7 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8758,16 +8895,40 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "9c899b48-57ee-4e65-be6c-4d98363cc975")
+		(property "Description" ""
+			(at 139.7 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C561260"
+			(at 139.7 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8aad75c3-2136-43b3-b589-c32f1923b3c3")
 		)
 		(pin "2"
-			(uuid "24354d42-647b-49b8-a6c8-e51a7372448b")
+			(uuid "d84cce71-a014-4477-b6cb-50bf21754949")
+		)
+		(pin "1"
+			(uuid "13c19683-ee70-46c9-bd23-69f12f7a6e29")
+		)
+		(pin "4"
+			(uuid "18a572bd-9498-4e6f-9231-77bb0fad5c85")
 		)
 		(instances
 			(project "eight_by_qtpy"
 				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
-					(reference "SW10")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -8907,16 +9068,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 160.02 59.69 0)
+		(at 83.82 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "84d0ffb1-fb01-42c6-b9ed-839363710d43")
-		(property "Reference" "#PWR027"
-			(at 160.02 66.04 0)
+		(uuid "858af806-c2a9-4630-be57-653e209ff8a8")
+		(property "Reference" "#PWR015"
+			(at 83.82 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8925,7 +9086,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.02 64.77 0)
+			(at 83.82 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8933,7 +9094,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 59.69 0)
+			(at 83.82 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8942,7 +9103,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 59.69 0)
+			(at 83.82 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8951,7 +9112,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 59.69 0)
+			(at 83.82 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8960,83 +9121,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "bf5b4d8a-3048-4fda-92c1-60244c52b3a4")
-		)
-		(instances
-			(project "eight_by"
-				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push_45deg")
-		(at 200.66 57.15 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "852e1c8a-212f-4924-849e-66562c73b7a9")
-		(property "Reference" "SW9"
-			(at 196.85 55.8799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_Push_45deg"
-			(at 199.644 58.674 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H7.3mm"
-			(at 200.66 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 200.66 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 200.66 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "01e67120-0145-4c09-a517-473440312594")
-		)
-		(pin "2"
-			(uuid "07abb2c6-cffc-41fe-bb45-515960fad1c5")
+			(uuid "e68d93fc-6615-4899-bbbf-8e2989138023")
 		)
 		(instances
 			(project "eight_by_qtpy"
 				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
-					(reference "SW9")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -9599,6 +9689,88 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:TC-1103-C-D")
+		(at 160.02 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "956169c1-eb4c-477d-bada-ec16654c41ba")
+		(property "Reference" "SW7"
+			(at 160.02 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TC-1103-C-D"
+			(at 155.702 61.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SW-TH_4P-L12.0-W12.0-P5.00-LS12.5"
+			(at 160.02 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_XKB-Enterprise-TC-1103-C-D_C561260.html"
+			(at 160.02 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C561260"
+			(at 160.02 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "cadb1d24-977d-460c-9040-aeb7303b3a29")
+		)
+		(pin "2"
+			(uuid "1c15a165-7300-456c-983b-1c274e6cffb7")
+		)
+		(pin "1"
+			(uuid "8e96b2ee-2a1b-4168-9847-c66e864263ba")
+		)
+		(pin "4"
+			(uuid "5732348d-beeb-4338-a786-fc7ff4442eea")
+		)
+		(instances
+			(project "eight_by_qtpy"
+				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 137.16 39.37 0)
 		(mirror y)
@@ -9876,143 +10048,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 119.38 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a0ee73ae-3b4d-449a-ac88-fb383abcffba")
-		(property "Reference" "#PWR021"
-			(at 119.38 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 119.38 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 119.38 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c0460d5c-f82c-480c-a4f1-0b308d649c6c")
-		)
-		(instances
-			(project "eight_by"
-				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push_45deg")
-		(at 116.84 57.15 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a3330fcb-c30b-4f4a-bb8d-da432a73f737")
-		(property "Reference" "SW5"
-			(at 113.03 55.8799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_Push_45deg"
-			(at 115.824 58.674 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H7.3mm"
-			(at 116.84 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 116.84 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 116.84 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0f4da313-4b68-4273-80aa-d9669710037e")
-		)
-		(pin "2"
-			(uuid "6689ea21-18b9-4ec8-a18d-1f1777dfaf9d")
-		)
-		(instances
-			(project "eight_by"
-				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
-					(reference "SW5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 76.2 35.56 0)
 		(unit 1)
@@ -10145,6 +10180,88 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:TC-1103-C-D")
+		(at 119.38 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a66521ce-1b33-418d-b837-c4496db685d5")
+		(property "Reference" "SW5"
+			(at 119.38 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TC-1103-C-D"
+			(at 115.062 61.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SW-TH_4P-L12.0-W12.0-P5.00-LS12.5"
+			(at 119.38 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_XKB-Enterprise-TC-1103-C-D_C561260.html"
+			(at 119.38 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C561260"
+			(at 119.38 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a805efa2-be96-4e19-812a-775c32c04c0e")
+		)
+		(pin "2"
+			(uuid "8ca2fb27-005d-4723-960b-36ca06252ad8")
+		)
+		(pin "1"
+			(uuid "79352f0f-c72b-4403-b813-38dcc64c4580")
+		)
+		(pin "4"
+			(uuid "b197e34d-1297-4770-9d2b-fde8e3ed8bb4")
+		)
+		(instances
+			(project "eight_by_qtpy"
+				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 58.42 72.39 0)
 		(unit 1)
@@ -10204,72 +10321,6 @@
 			(project "eight_by"
 				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
 					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 99.06 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a9ba2dbb-97f2-4ff1-85d2-a07def1286fb")
-		(property "Reference" "#PWR018"
-			(at 99.06 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 99.06 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ecc0932f-419e-4489-bb91-b2331d6d7059")
-		)
-		(instances
-			(project "eight_by"
-				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
-					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -10412,36 +10463,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push_45deg")
-		(at 57.15 57.15 270)
-		(mirror x)
+		(lib_id "power:GND")
+		(at 232.41 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "af19b708-4e80-4e46-82bb-9e768b9c3065")
-		(property "Reference" "SW2"
-			(at 53.34 55.8799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_Push_45deg"
-			(at 56.134 58.674 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H7.3mm"
-			(at 57.15 57.15 0)
+		(fields_autoplaced yes)
+		(uuid "ab9bfca6-3ec9-4e38-bd38-bbd1d4ce435e")
+		(property "Reference" "#PWR065"
+			(at 232.41 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10449,8 +10481,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 57.15 57.15 0)
+		(property "Value" "GND"
+			(at 232.41 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10458,8 +10498,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 57.15 57.15 0)
+		(property "Datasheet" ""
+			(at 232.41 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 232.41 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10468,15 +10517,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0f6ca108-8155-4830-b720-064e674c3360")
-		)
-		(pin "2"
-			(uuid "b2371c1b-74d2-476c-9c2e-52415046a331")
+			(uuid "b14b2677-63da-47eb-9855-f694183ad0fc")
 		)
 		(instances
-			(project "eight_by"
+			(project "eight_by_qtpy"
 				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
-					(reference "SW2")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -10558,6 +10604,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 185.42 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2783a13-993d-40e7-a081-e12a6e53eaae")
+		(property "Reference" "#PWR030"
+			(at 185.42 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 185.42 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 185.42 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9db2231-ff02-43d4-8391-19918a20d55b")
+		)
+		(instances
+			(project "eight_by_qtpy"
+				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 104.14 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3255f82-a6f6-4741-9851-21e690dac6c1")
+		(property "Reference" "#PWR018"
+			(at 104.14 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.14 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62317bf8-d7f1-44ac-9326-7d1c90102700")
+		)
+		(instances
+			(project "eight_by_qtpy"
+				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 49.53 76.2 0)
 		(mirror y)
@@ -10622,77 +10800,6 @@
 			(project "eight_by"
 				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push_45deg")
-		(at 157.48 57.15 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b3e0373f-bffb-4d29-a081-39e043f56cc4")
-		(property "Reference" "SW7"
-			(at 153.67 55.8799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_Push_45deg"
-			(at 156.464 58.674 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H7.3mm"
-			(at 157.48 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 157.48 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 157.48 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3287bd72-7cdc-4168-8f7d-bc3ed2c727ca")
-		)
-		(pin "2"
-			(uuid "79a2c801-9bfc-4b76-95d3-b5765f9a6438")
-		)
-		(instances
-			(project "eight_by"
-				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
-					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -10891,77 +10998,6 @@
 			(project "eight_by"
 				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
 					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push_45deg")
-		(at 38.1 57.15 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bba59cc7-6e21-401a-ba19-fd70e5f0b443")
-		(property "Reference" "SW1"
-			(at 34.29 55.8799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_Push_45deg"
-			(at 37.084 58.674 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H7.3mm"
-			(at 38.1 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 38.1 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fe09a7a1-ec52-4486-aad1-2f2f2f4d4209")
-		)
-		(pin "2"
-			(uuid "903f59c0-50ac-4163-a98f-fcf0b195db68")
-		)
-		(instances
-			(project "eight_by"
-				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -11454,6 +11490,88 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:TC-1103-C-D")
+		(at 78.74 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c88edb3f-76f8-435d-8264-d1b19fc8b352")
+		(property "Reference" "SW3"
+			(at 78.74 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TC-1103-C-D"
+			(at 75.438 61.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SW-TH_4P-L12.0-W12.0-P5.00-LS12.5"
+			(at 78.74 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_XKB-Enterprise-TC-1103-C-D_C561260.html"
+			(at 78.74 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C561260"
+			(at 78.74 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e44283ac-c2d7-40f4-a0c5-808ddc70c0bb")
+		)
+		(pin "2"
+			(uuid "f1248bed-798e-4740-a508-d84801db2fe7")
+		)
+		(pin "1"
+			(uuid "5aa16ce8-b2a0-481c-aaf1-a4f3750191b6")
+		)
+		(pin "4"
+			(uuid "ca40fbc5-6e43-48f7-a8cd-538448546752")
+		)
+		(instances
+			(project "eight_by_qtpy"
+				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 57.15 39.37 0)
 		(mirror y)
@@ -11528,45 +11646,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push_45deg")
-		(at 177.8 57.15 270)
-		(mirror x)
+		(lib_id "easyeda2kicad:TC-1103-C-D")
+		(at 180.34 57.15 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ce3f6364-7a06-417e-a7dd-bbed24a9a955")
+		(uuid "cbe5ec9a-7dc5-41db-acf4-2e6c39bddcc5")
 		(property "Reference" "SW8"
-			(at 173.99 55.8799 90)
+			(at 180.34 51.562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "SW_Push_45deg"
-			(at 176.784 58.674 90)
+		(property "Value" "TC-1103-C-D"
+			(at 176.022 61.468 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H7.3mm"
-			(at 177.8 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 57.15 0)
+		(property "Footprint" "easyeda2kicad:SW-TH_4P-L12.0-W12.0-P5.00-LS12.5"
+			(at 180.34 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11574,8 +11679,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 177.8 57.15 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_XKB-Enterprise-TC-1103-C-D_C561260.html"
+			(at 180.34 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11583,14 +11688,38 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "7147299a-9c16-40a8-b603-dfaa3aad6b3d")
+		(property "Description" ""
+			(at 180.34 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C561260"
+			(at 180.34 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "632931a3-a66a-4f46-a42b-0fa0038e8cda")
 		)
 		(pin "2"
-			(uuid "e9356b6b-ba25-449c-b516-ada98252d16f")
+			(uuid "d0b9517c-fd29-4150-83b1-997b620428da")
+		)
+		(pin "1"
+			(uuid "bfe11d56-917e-4351-bdb5-a291e15bd4e6")
+		)
+		(pin "4"
+			(uuid "a53b399a-55c4-45a9-be2a-19c3d94e34e3")
 		)
 		(instances
-			(project "eight_by"
+			(project "eight_by_qtpy"
 				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
 					(reference "SW8")
 					(unit 1)
@@ -11664,6 +11793,88 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:TC-1103-C-D")
+		(at 99.06 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d018168b-4fc4-4e40-9acf-6dc525f95934")
+		(property "Reference" "SW4"
+			(at 99.06 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TC-1103-C-D"
+			(at 94.742 61.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SW-TH_4P-L12.0-W12.0-P5.00-LS12.5"
+			(at 99.06 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_XKB-Enterprise-TC-1103-C-D_C561260.html"
+			(at 99.06 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C561260"
+			(at 99.06 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9dd10ee2-806e-4a02-ba29-7c9f155afd98")
+		)
+		(pin "2"
+			(uuid "1fb19150-fc15-42b7-abe7-d2cee8abdfb1")
+		)
+		(pin "1"
+			(uuid "397b3b8b-e03a-4fe6-a080-c874eef04c11")
+		)
+		(pin "4"
+			(uuid "ac6a6c0d-a144-411a-bdd2-bb2397046ae5")
+		)
+		(instances
+			(project "eight_by_qtpy"
+				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 165.1 152.4 0)
 		(unit 1)
@@ -11724,6 +11935,72 @@
 			(project "eight_by"
 				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 45.72 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d497c707-e471-4700-83ac-e3e9fc335d7e")
+		(property "Reference" "#PWR02"
+			(at 45.72 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 45.72 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 45.72 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d945ce96-a736-4a5d-972c-bd65b82d4d25")
+		)
+		(instances
+			(project "eight_by_qtpy"
+				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -12002,72 +12279,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 78.74 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e60f2a33-43bc-4a34-afa6-ce5577d66ec8")
-		(property "Reference" "#PWR015"
-			(at 78.74 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 78.74 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cf4eac41-7919-4081-a2db-fbb049bc6bad")
-		)
-		(instances
-			(project "eight_by"
-				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 96.52 39.37 0)
 		(mirror y)
@@ -12136,72 +12347,6 @@
 			(project "eight_by"
 				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
 					(reference "RV4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 40.64 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ebd3db96-a43a-44b6-ae0a-71538d43378c")
-		(property "Reference" "#PWR02"
-			(at 40.64 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 40.64 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.64 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ca2c474b-da87-4c71-bd02-af8089807267")
-		)
-		(instances
-			(project "eight_by"
-				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -12481,6 +12626,88 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:TC-1103-C-D")
+		(at 227.33 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3e2c073-6194-4ede-9a41-310e3e6bc7e6")
+		(property "Reference" "SW10"
+			(at 227.33 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TC-1103-C-D"
+			(at 223.012 61.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SW-TH_4P-L12.0-W12.0-P5.00-LS12.5"
+			(at 227.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_XKB-Enterprise-TC-1103-C-D_C561260.html"
+			(at 227.33 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C561260"
+			(at 227.33 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c129f46f-5c8f-4c39-ad59-c152b62bc204")
+		)
+		(pin "2"
+			(uuid "176481c0-3926-4a9e-b450-a0a2e93a03b2")
+		)
+		(pin "1"
+			(uuid "2a76c55d-f1c0-4b9d-b82c-6f120c17f197")
+		)
+		(pin "4"
+			(uuid "27021ccf-0377-4050-9ef9-38236a89be3a")
+		)
+		(instances
+			(project "eight_by_qtpy"
+				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 116.84 39.37 0)
 		(mirror y)
@@ -12614,77 +12841,6 @@
 			(project "eight_by"
 				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
 					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push_45deg")
-		(at 137.16 57.15 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f842738e-1a14-47cb-8cec-9acecf460cad")
-		(property "Reference" "SW6"
-			(at 133.35 55.8799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_Push_45deg"
-			(at 136.144 58.674 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H7.3mm"
-			(at 137.16 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 137.16 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f40352f0-e03d-42c3-94a3-9e47d7b0c79c")
-		)
-		(pin "2"
-			(uuid "716ba7ed-e2b5-450b-8d73-a40391f55f96")
-		)
-		(instances
-			(project "eight_by"
-				(path "/8bea9f04-c1ed-4e11-b819-eb8da60d17cd"
-					(reference "SW6")
 					(unit 1)
 				)
 			)
