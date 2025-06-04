@@ -4,7 +4,7 @@
 An 8-knob + 8 buttons + eight RGB LEDs board,<br/>
 all controllable with only 8 pins
 
-<img src="./docs/eight_by_render0.jpg" width=500>
+<img src="./docs/eight_by_qtpy_render0.jpg" width=500>
 
 <img src="./schematics/eight_by_qtpy/eight_by_qtpy_sch.png" width=500>
 
